@@ -1,0 +1,130 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main Styling */
+  
+  html,
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  /* Utility Classes*/
+  
+  .container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+  }
+  
+  .clr {
+    clear: both;
+  }
+  
+  /* Navbar Styling */
+  
+  #navbar {
+    background: #333;
+    color: whitesmoke;
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: whitesmoke;
+  }
+  
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+  }
+  
+  #navbar ul {
+    float: right;
+    list-style: none;
+  }
+  
+  #navbar ul li {
+    float: left;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    margin: 1px;
+  }
+  
+  #navbar ul li a:hover,
+  #navbar ul li a.current {
+    background: #444;
+    color: #f7c08a;
+  }
+  
+  #main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  #main-footer p:hover {
+    color: blue;
+  }
+  
+  /* RESPONSIVE DESIGN */
+  /* هر موقعه صفحه نمایش  کمتر از 501 پیکسل شد رنگ پس زمینه به خاکستری تغییر میکند */
+  /*
+  @media screen and (max-width: 500px ){
+      body {
+          background: lightgray;
+      }
+  }
+  /* هر موقعه صفحه نمایش بزرگنر از 501 پیکسل و کمتر از 921 پیکسل شد رنگ پس زمینه به آبی تغییر میکند*/
+  /*
+  @media screen and (min-width: 501px ) and (max-width:920px) {
+      body {
+          background-color: lightskyblue;
+      }
+      
+  }
+  */
+  /* هر موقعه صفحه نمایش بزرگنر از 921 پیکسل و کمتر از 1201 پیکسل شد رنگ پس زمینه به زیتونی تغییر میکند*/
+  /*
+  @media screen and (min-width: 921px ) and (max-width:1200px) {
+      body {
+          background-color:olivedrab;
+      }
+      
+  }
+  */
+  /* هر موقعه صفحه نمایش  بیشتر از 1201 پیکسل شد رنگ پس زمینه به سفید  تغییر میکند*/
+  
+  /*
+  @media screen and (min-width: 1201px ) {
+      body {
+          background-color: whitesmoke;
+      }
+      
+  }*/
+  
