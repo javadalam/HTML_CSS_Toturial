@@ -1,8 +1,108 @@
+/* REST */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html{
-    font-size: 22px;
+
+    font-family: sans-serif;
+    line-height: 1.5em;
 }
  
-body{
+a{
+    text-decoration: none;
+}
+
+table, tr, td {
+    border: solid 1px red;
+}
+
+#navbar {
     background-color: #333;
     color: whitesmoke;
+    overflow: auto;
+}
+#navbar a {
+    color: white;
+}
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar h1:hover {
+    color: blue;
+    background: #444;
+  
+}
+
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    margin: 1px;
+}
+
+#navbar ul li a:hover ,
+#navbar ul li a.current{
+    background: #444;
+    color: palevioletred;
+   
+}
+#second {
+    height: 800px;
+    padding: 20px;
+    background: skyblue;
+    width: 10%;
+    margin-left: 0;
+    border-bottom: 1px solid black;
+    float: left;
+}
+#second li {
+    list-style: none;
+    padding-top: 20px;
+    text-align: left;
+}
+ul li a {
+    color: black;
+
+}
+ul li a:hover{
+    color: pink;
+}
+
+ul li a:active {
+    color: yellow;
+}
+
+.main h1 {
+    color: red;
+    
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+}
+input{
+    border: 1px solid yellow;
+    border-radius: 3px;
+    width: 50%;
+    margin: 20px;
+    padding: 15px;
 }
