@@ -6,3 +6,25 @@ body{
     background-color: #333;
     color: whitesmoke;
 }
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+a:visited {
+    color: coral;
+}
+
+a:hover , a:active {
+    color: yellow;
+}
+
+ul li{
+    
+    list-style: none;
+}
+
+abbr{
+    color: orchid;
+    text-decoration: none;
+}
