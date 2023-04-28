@@ -1,40 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
      
-    <head>
+
+<head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <meta name="author" content="Javad Alamdar">
         <meta name="description" content="This page contains all the things I am learning how to creates as I learn HTML.">
         <meta name="keyword" content="html, css , javascript">
         <title>My First Web Page </title>
         <link rel="icon" href="/img/html5.png" type="image/x-icon">
        <link rel="stylesheet" href="css/main.css" type="text/css">
-    </head>
 
-    <body>
-        <h1>Hello World!</h1>
+</head>
 
+<body>
+    <header>
+        <h1>My Goals for the Year</h1>
+        <nav aria-label="praimary-navigation">
+            <ul>
+                <li>
+                    <a href="#html">Learning HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">My Plan</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
         <hr>
-
+    <main>
+    <article id="html">
         <h2>I'm Ready to Leran HTML.</h2>
+        
         <p>This is my first Web Page </p>
-
+        <section>
+            <h3>HTML 5</h3>
+        
+        <img src="img/html_logo_300x300.png" alt="HTML 5 Logo" title="
+        I'm learning HTML 5 Logo" height="300" width="300">
+        <figure>
+            <figcaption>An Example of HTML5 Code</figcaption>
+            <p>
+                <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+            </p>
+        </figure>
+    </section>
+     <section>
         <h3>My Daily Schedule</h3>
-        <p>Let me tell me you How:
-            <br>...I leran more about dev.
-            <br>...[I plan out my schedule.
-            <br>...I use resource form MDN.
-        </p>
+        <p>Let me tell me you How:</p>
+        <ol>
 
+            <li>...I leran more about dev.</li>
+            <li>...I plan out my schedule.</li>
+            <li>...I use resource form <abbr title="Mozilla Developer Network"> 
+               <a href="https://developer.mozilla.org/" target="_blank">MDN</a></abbr></li>
+        </ol>
+        <aside>
+            <details>
+                <summary>
+                    Guess the <mark> Number of Hours </mark> I code per day
+                </summary>
+                <p>
+                    I Start at <time datetime="08:00">8 Am</time> and 
+                    I write code for <time datetime="PT3H">3 Hours</time> every morning.
+                </p>
+            </details>
+        </aside>
+        <br>
+        <table>
+            <caption>My Daily Schedule</caption>
+            <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th scope="col">Time</th>
+                <th scope="col">Activity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Morning</th>
+                <td>
+                    <time datetime="08:00">8 am</time>-<time datetime="11:00">11 am</time>
+                </td>
+                <td>
+                     Write Code
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Break</th>
+                <td>
+                    <time datetime="11:00">11 am</time>-<time datetime="12:00">12 pm</time>
+                </td>
+                <td>
+                     Eat Lunch
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Afternoon</th>
+                <td>
+                    <time datetime="12:00">12 pm</time>-<time datetime="17:00">05 pm</time>
+                </td>
+                <td>
+                     Study for other Courses
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+                <td rowspan="2">All Other Time</td>
+                <td >Free Time</td>
+                
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">And thas what I do every day , % days a week, Juest est
+                    sleep , code .. and recharge
+                </td>
+            </tr>
+        </tfoot> 
+        </table>
         <hr>
+        <table>
+            <caption>Unsere Menu</caption>
+            <thead>
+                <tr>
+                    <th>Main Food</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>Warp</th>
+                <td> &nbsp;</td>
+                <td>3.5 Euro</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Doner</th>
+                <td>Rind</td>
+                <td>5.50 Euro</td>
+            </tr>
+            <tr>
+                <td>Chickne</td>
+                <td>5.00 Euro</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Lamachun</th>
+                <td>Ohne Alles</td>
+                <td>3.00 Euro</td>
 
+            </tr>
+            <tr>
+                <td>Mit Salad</td>
+                <td>4.50 Euro</td>
+            </tr>
+            <tr>
+                <td>Mit Fleisch</td>
+                <td>6.50 Euro</td>
+            </tr>
+            <tr>
+                <th rowspan="5">Drink</th>
+                <td>Cola</td>
+                <td>2.20 Euro</td>
+            </tr>
+            <tr>
+                
+                <td>Fanta</td>
+                <td>2.20 Euro</td>
+            </tr>
+            <tr>
+                
+                <td>Sprite</td>
+                <td>2.20 Euro</td>
+            </tr>
+            <tr>
+              
+                <td>Wasser</td>
+                <td>2.20 Euro</td>
+            </tr>
+            <tr>
+                
+                <td>Orange</td>
+                <td>2.20 Euro</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">sie konnen online bestellen </td>
+            </tr>
+        </tfoot>
+        </table>
+    </section>    
+    </article>
+        <hr>
+        
+
+    <article id="vacation">
         <h2>I Am Also Planning a Vaccation</h2>
-        <p>I'v been Working Hard and really need a getway</p>
-        <p>I live in KS no I want visit a beach</p>
-
+        <p>I'v been Working Hard and <em>really need a getway</em></p>
+        
+        <p>I live in <abbr title="Kansas">KS</abbr> no I want visit a beach</p>
+        <section>
         <h3>Place I'd Like To Visit </h3>
-        <p>I've bead good thing about the Caribbean </p>
-    </body>
+
+        <ul>
+        <li>
+            <p>I've hard good thing about the Caribbean </p>
+            <figure>
+            <img src="./img/caribbean.jpg" alt="Caribbean Beach" title="I want to visit a Carribean Beach"
+            width="400" height="225" loading="lazy">
+            <figcaption>
+                Caribaen Beach Gateway
+            </figcaption>
+            </figure>
+        </li>
+        <li>
+            <p>I'v heard good things about going here: </p>
+            <address>
+                Merowinger street 1 <br>
+                Dusseldorf <br>
+                40225 Germany
+            </address>
+            <figure>
+            <img src="./img/vacation.jpg" alt="Cancun Vacation" title="It's 5 o'cklock Somewhere" loading="lazy" width="400" height="267">
+            <figcaption>
+                A Caribbean Vacation Image
+            </figcaption>
+                     
+        </figure>
+        </li>
+        </ul>
+    </section>
+         <!-- TODO: add more places-->
+         <section>
+        <h3>Places I want to Avoid</h3>
+
+        <dl>
+            <dt>North Pole</dt>
+                <dd>I hear this is <strong>Cold</strong>!</dd>
+            
+            <dt>South Pole  </dt>
+                <dd>This is also Cold</dd>
+          
+            <dt>Moution pole</dt>
+                <dd>These are Also Cold</dd>
+            
+        </dl>
+        <p>Anywhere cold. <strong>No Way!</strong></p>
+    </section>
+    </article>
+</main>
+        <hr>
+        <footer>
+         <p>
+        &lt;&lt;&lt; &copy; <a href="about.html"> Javad Alamdar </a> &gt;&gt;&gt;
+    </p>
+        <p>
+            <a href="#">Back To Top</a>
+        </p>
+    </footer>
+</body>
+
 </html>
