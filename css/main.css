@@ -5,7 +5,6 @@ html{
 body{
     background-color: #333;
     color: whitesmoke;
-}
 
 a {
     color: aliceblue;
@@ -35,3 +34,4 @@ table, tr, th, td, caption {
 .main-form ,div {
     margin-bottom: 10px;
 }
+
