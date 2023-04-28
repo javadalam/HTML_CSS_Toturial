@@ -19,12 +19,15 @@ a:hover , a:active {
     color: yellow;
 }
 
-ul li{
-    
-    list-style: none;
-}
 
-abbr{
+abbr,a{
     color: orchid;
     text-decoration: none;
+}
+
+table, tr, th, td, caption {
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
 }
